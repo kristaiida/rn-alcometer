@@ -27,6 +27,7 @@ export default function App() {
     }
     setTotal(answer);
 
+    
     if (answer < 0) {
       setTotal(0);
     }
